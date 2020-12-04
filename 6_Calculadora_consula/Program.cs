@@ -9,18 +9,20 @@ namespace _6_Calculadora_consula
             float num1 = 0;
             float num2 = 0;
             double resultado = 0.0;
-            Boolean validaNum1 = false;
-            Boolean validaNum2 = false;
-            Boolean validaOp = false;
-            Boolean validaOptFinal = false;
+            Boolean validaNum1;
+            Boolean validaNum2;
+            Boolean validaOp;
+            Boolean validaOptFinal;
             Boolean calcContinua = true;
-            int indiceArray;
-            int[] histNum1;
-            int[] histNum2 = new int[5];
+            int indiceArray=0;
+            float[] histNum1 = new float[3];
+            float[] histNum2 = new float[3];
+            string[] histOp = new string[3];
 
 
             while (calcContinua)
             {
+                validaNum1 = false;
                 while (validaNum1 == false)
                 {
                     Console.WriteLine("insira um numero inteiro\n");
@@ -29,6 +31,7 @@ namespace _6_Calculadora_consula
                     if (!validaNum1)
                         Console.WriteLine("Inseriu {0} que não é um numero", aux);
                 }
+                validaNum2 = false;
                 while (validaNum2 == false)
                 {
                     Console.WriteLine("insira um numero inteiro\n");
@@ -37,7 +40,7 @@ namespace _6_Calculadora_consula
                     if (!validaNum2)
                         Console.WriteLine("Inseriu {0} que não é um numero", aux);
                 }
-
+                validaOp = false;
                 while (!validaOp)
                 {
                     Console.WriteLine("escolha a operação a realizar\n");
@@ -49,7 +52,28 @@ namespace _6_Calculadora_consula
                         case "+":
                             Console.WriteLine(num1 + num2);
                             validaOp = true;
-
+                            if (indiceArray <= 2)
+                            {
+                                histNum1[indiceArray] = num1;
+                                histNum2[indiceArray] = num2;
+                                histOp[indiceArray] = op;
+                                indiceArray++;
+                            }
+                            else
+                            {
+                                for (var i = 0; i < 2; i++)
+                                {
+                                    
+                                    histNum1[i] = histNum1[i+1];    // descartar o historico mais antigo
+                                    histNum2[i] = histNum2[i+1];
+                                    histOp[i] = histOp[i];
+                                    //indiceArray++;
+                                }
+                                histNum1[indiceArray-1] = num1;   //pode-se criar um metodo para preencher array
+                                histNum2[indiceArray-1] = num2;   //
+                                histOp[indiceArray-1] = op;       //
+                            }
+                            
                             break;
 
                         case "-":
@@ -64,7 +88,7 @@ namespace _6_Calculadora_consula
                             break;
                         case "*":
                             resultado = num1 / num2;
-                            Console.WriteLine(resultado);
+                            Console.WriteLine("{ 0:N2}", resultado);
                             validaOp = true;
                             break;
                         default:
@@ -73,6 +97,7 @@ namespace _6_Calculadora_consula
 
                     }
                     // antes de cada ciclo reiniciar a variavel booleana
+                    validaOptFinal = false;
                     while (!validaOptFinal)
                     {
                         Console.WriteLine("escolha uma das opções realizar\n");
@@ -88,9 +113,17 @@ namespace _6_Calculadora_consula
 
                             case "hist":
                                 // imprimir historico e sair
-                                //Console.WriteLine(num1 - num2);
-                                //for
+                                for (var i = indiceArray-1; i >= 0; i--)
+                                {
+                                    Console.WriteLine("{0} {1} {2}", histNum1[i], histOp[i], histNum2[i]);
+
+                                }
+
                                 calcContinua = false;
+                                validaOptFinal = true;
+                                break;
+                            case "cont":
+                                calcContinua = true;
                                 validaOptFinal = true;
                                 break;
                             default:

@@ -11,3 +11,16 @@ C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6052\Programas\
 C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6052\Programas\6_Calculadora_consula\obj\Debug\netcoreapp3.1\6_Calculadora_consula.dll
 C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6052\Programas\6_Calculadora_consula\obj\Debug\netcoreapp3.1\6_Calculadora_consula.pdb
 C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6052\Programas\6_Calculadora_consula\obj\Debug\netcoreapp3.1\6_Calculadora_consula.genruntimeconfig.cache
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\bin\Debug\netcoreapp3.1\6_Calculadora_consula.exe
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\bin\Debug\netcoreapp3.1\6_Calculadora_consula.deps.json
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\bin\Debug\netcoreapp3.1\6_Calculadora_consula.runtimeconfig.json
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\bin\Debug\netcoreapp3.1\6_Calculadora_consula.runtimeconfig.dev.json
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\bin\Debug\netcoreapp3.1\6_Calculadora_consula.dll
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\bin\Debug\netcoreapp3.1\6_Calculadora_consula.pdb
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\obj\Debug\netcoreapp3.1\6_Calculadora_consula.csprojAssemblyReference.cache
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\obj\Debug\netcoreapp3.1\6_Calculadora_consula.AssemblyInfoInputs.cache
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\obj\Debug\netcoreapp3.1\6_Calculadora_consula.AssemblyInfo.cs
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\obj\Debug\netcoreapp3.1\6_Calculadora_consula.csproj.CoreCompileInputs.cache
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\obj\Debug\netcoreapp3.1\6_Calculadora_consula.dll
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\obj\Debug\netcoreapp3.1\6_Calculadora_consula.pdb
+C:\Users\alvar\Documents\GitHub\exercicios_ufcd\6_Calculadora_consula\obj\Debug\netcoreapp3.1\6_Calculadora_consula.genruntimeconfig.cache
