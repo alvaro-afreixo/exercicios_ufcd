@@ -52,6 +52,7 @@ namespace _6_Calculadora_consula
                         case "+":
                             Console.WriteLine(num1 + num2);
                             validaOp = true;
+                            //preenchimento do array
                             if (indiceArray <= 2)
                             {
                                 histNum1[indiceArray] = num1;
@@ -79,6 +80,28 @@ namespace _6_Calculadora_consula
                         case "-":
                             Console.WriteLine(num1 - num2);
                             validaOp = true;
+                            //preenchimento do array
+                            if (indiceArray <= 2)
+                            {
+                                histNum1[indiceArray] = num1;
+                                histNum2[indiceArray] = num2;
+                                histOp[indiceArray] = op;
+                                indiceArray++;
+                            }
+                            else
+                            {
+                                for (var i = 0; i < 2; i++)
+                                {
+
+                                    histNum1[i] = histNum1[i + 1];    // descartar o historico mais antigo
+                                    histNum2[i] = histNum2[i + 1];
+                                    histOp[i] = histOp[i];
+                                    //indiceArray++;
+                                }
+                                histNum1[indiceArray - 1] = num1;   //pode-se criar um metodo para preencher array
+                                histNum2[indiceArray - 1] = num2;   //
+                                histOp[indiceArray - 1] = op;       //
+                            }
                             break;
 
                         case "/":
