@@ -26,7 +26,7 @@ namespace _6_Calculadora_consula
                 /*
                 validaNum1 = false;
                 // valida e regista o primeiro numero
-                while (validaNum1 == false)
+                while (!validaNum1)
                 {
                     Console.WriteLine("insira o primeiro numero \n");
                     var aux = Console.ReadLine();
@@ -41,7 +41,7 @@ namespace _6_Calculadora_consula
                 /*
                 validaNum2 = false;
                 // valida e regista o segundo numero
-                while (validaNum2 == false)
+                while (!validaNum2)
                 {
                     Console.WriteLine("insira o segundo numero numero\n");
                     var aux = Console.ReadLine();
