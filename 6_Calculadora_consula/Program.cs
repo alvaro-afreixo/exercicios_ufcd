@@ -23,6 +23,7 @@ namespace _6_Calculadora_consula
 
             while (calcContinua)
             {
+                /*
                 validaNum1 = false;
                 // valida e regista o primeiro numero
                 while (validaNum1 == false)
@@ -33,6 +34,11 @@ namespace _6_Calculadora_consula
                     if (!validaNum1)
                         Console.WriteLine("Inseriu {0} que não é um numero", aux);
                 }
+
+                */
+
+                num1 = ValidaNumero();
+                /*
                 validaNum2 = false;
                 // valida e regista o segundo numero
                 while (validaNum2 == false)
@@ -43,6 +49,12 @@ namespace _6_Calculadora_consula
                     if (!validaNum2)
                         Console.WriteLine("Inseriu {0} que não é um numero", aux);
                 }
+
+                */
+
+                num2 = ValidaNumero();
+
+
                 validaOp = false;
                 // Valida se o operador faz parte da lista  e calcula
                 while (!validaOp)
@@ -193,7 +205,7 @@ namespace _6_Calculadora_consula
                     Console.WriteLine("escolha uma das opções realizar\n");
                     Console.WriteLine("\t'sair'\n\t'hist' - mostra o historico das 3 ultimas operações e sai\n\t'cont' - voltar a fazer mais uma operação\n");
                     var selectOpt = Console.ReadLine();
-
+                    // realiza as tarefas de acordo com a escolha do utilizador
                     switch (selectOpt)
                     {
                         case "sair":
@@ -223,6 +235,22 @@ namespace _6_Calculadora_consula
             }
         
 
+        }
+
+        //método para validar numero
+        static float ValidaNumero()
+        {
+            bool validaNum;
+            float num;
+            do
+            {
+                Console.WriteLine("insira o primeiro numero \n");
+                var aux = Console.ReadLine();
+                validaNum = float.TryParse(aux, out num);
+                if (!validaNum)
+                    Console.WriteLine("Inseriu {0} que não é um numero", aux);
+            } while (validaNum == false);
+            return num;
         }
     }
 }
