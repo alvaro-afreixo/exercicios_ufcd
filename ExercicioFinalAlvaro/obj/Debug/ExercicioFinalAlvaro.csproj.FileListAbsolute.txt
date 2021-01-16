@@ -1,0 +1,10 @@
+C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6054\Exercicio Final\ExercicioFinalAlvaro\bin\Debug\ExercicioFinalAlvaro.exe.config
+C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6054\Exercicio Final\ExercicioFinalAlvaro\bin\Debug\ExercicioFinalAlvaro.exe
+C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6054\Exercicio Final\ExercicioFinalAlvaro\bin\Debug\ExercicioFinalAlvaro.pdb
+C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6054\Exercicio Final\ExercicioFinalAlvaro\obj\Debug\ExercicioFinalAlvaro.csprojAssemblyReference.cache
+C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6054\Exercicio Final\ExercicioFinalAlvaro\obj\Debug\ExercicioFinalAlvaro.Form1.resources
+C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6054\Exercicio Final\ExercicioFinalAlvaro\obj\Debug\ExercicioFinalAlvaro.Properties.Resources.resources
+C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6054\Exercicio Final\ExercicioFinalAlvaro\obj\Debug\ExercicioFinalAlvaro.csproj.GenerateResource.cache
+C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6054\Exercicio Final\ExercicioFinalAlvaro\obj\Debug\ExercicioFinalAlvaro.csproj.CoreCompileInputs.cache
+C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6054\Exercicio Final\ExercicioFinalAlvaro\obj\Debug\ExercicioFinalAlvaro.exe
+C:\Users\alvar\Desktop\Internet das coisas\Material de apoio\UFCD6054\Exercicio Final\ExercicioFinalAlvaro\obj\Debug\ExercicioFinalAlvaro.pdb
